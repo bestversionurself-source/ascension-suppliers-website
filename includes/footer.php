@@ -1,0 +1,5 @@
+<section class="final-cta"><div class="wrap"><div><span class="kicker light">READY TO GROW?</span><h2>Let’s build a website that works for your business.</h2></div><a class="round" href="/contact.php">Start a<br>project ↗</a></div></section>
+<footer><div class="wrap footer-grid"><div><a class="brand light-brand" href="/"><b>R</b><span>Reliance Digital<small>AGENCY</small></span></a><p>Purposeful PHP websites, online stores and digital experiences for growing businesses.</p></div><div><h4>Explore</h4><a href="/services.php">Services</a><a href="/packages.php">Packages</a><a href="/contact.php">Contact</a></div><div><h4>Contact</h4><a href="tel:+12187874743">+1 218 787 4743</a><a href="https://wa.me/919420911694">WhatsApp</a><a href="mailto:pbhalshankar5@gmail.com">pbhalshankar5@gmail.com</a></div></div><div class="wrap copyright">© <?= date('Y') ?> Reliance Digital Agency · Design. Develop. Deliver.</div></footer>
+<a class="whatsapp" href="https://wa.me/919420911694" aria-label="WhatsApp">◉</a>
+</body></html>
+
