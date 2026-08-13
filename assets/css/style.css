@@ -12,7 +12,7 @@
 .newsletter-control>span{font-size:15px;color:#928fa9}
 .newsletter-control input{border:0!important;box-shadow:none!important;background:transparent;color:#fff;padding:10px 0;min-width:0;font-size:13px}
 .newsletter-control input::placeholder{color:#747189}
-.newsletter-control button{border:0;border-radius:9px;padding:11px 13px;background:linear-gradient(135deg,var(--purple),#8b6bff);color:#fff;font-size:12px;font-weight:900;cursor:pointer;white-space:nowrap;box-shadow:0 8px 18px #6c4cff35;transition:transform .2s,box-shadow .2s}
+.newsletter-control button{margin-left:10px;border:0;border-radius:9px;padding:11px 13px;background:linear-gradient(135deg,var(--purple),#8b6bff);color:#fff;font-size:12px;font-weight:900;cursor:pointer;white-space:nowrap;box-shadow:0 8px 18px #6c4cff35;transition:transform .2s,box-shadow .2s}
 .newsletter-control button:hover{transform:translateY(-1px);box-shadow:0 10px 22px #6c4cff55}
 .newsletter-control button b{font-size:15px;margin-left:4px}
 .newsletter small{color:#706d85;line-height:1.5}
@@ -23,4 +23,4 @@
 .newsletter-trap{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
 .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 @media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr}.newsletter{grid-column:1/-1;max-width:560px}}
-@media(max-width:600px){.newsletter{grid-column:auto;width:100%;padding:22px!important}.newsletter-control{grid-template-columns:auto minmax(0,1fr)}.newsletter-control button{grid-column:1/-1;width:100%}}
+@media(max-width:600px){.newsletter{grid-column:auto;width:100%;padding:22px!important}.newsletter-control{grid-template-columns:auto minmax(0,1fr)}.newsletter-control button{grid-column:1/-1;width:100%;margin-left:0}}
