@@ -45,15 +45,3 @@ CREATE TABLE payments (
   CONSTRAINT fk_payments_order FOREIGN KEY (order_id) REFERENCES orders(id) ON DELETE RESTRICT,
   INDEX idx_payments_status (status)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
-CREATE TABLE subscribers (
-  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-  email VARCHAR(190) NOT NULL,
-  status ENUM('subscribed','unsubscribed') NOT NULL DEFAULT 'subscribed',
-  ip_hash CHAR(64) DEFAULT NULL,
-  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  UNIQUE KEY uq_subscribers_email (email),
-  INDEX idx_subscribers_status (status),
-  INDEX idx_subscribers_created (created_at)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
