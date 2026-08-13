@@ -6,5 +6,5 @@
 </head><body>
 <div class="topbar" aria-hidden="true"><div class="wrap"></div></div>
 <header><div class="wrap nav"><a class="brand" href="/"><b>A</b><span>Ascension Suppliers</span></a><button class="menu" aria-label="Open menu">☰</button><nav>
-<a class="<?= $page==='home'?'active':'' ?>" href="/">Home</a><a class="<?= $page==='services'?'active':'' ?>" href="/services.php">Services</a><a class="<?= $page==='packages'?'active':'' ?>" href="/packages.php">Packages</a><a class="<?= $page==='contact'?'active':'' ?>" href="/contact.php">Contact</a><a class="cta" href="/packages.php">Build my website ↗</a>
+<a class="<?= $page==='home'?'active':'' ?>" href="/#home">Home</a><a href="/#about">About</a><a href="/#services">Services</a><a href="/#packages">Packages</a><a href="/#contact">Contact</a><a class="cta" href="/#contact">Build my website ↗</a>
 </nav></div></header>
