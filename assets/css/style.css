@@ -24,3 +24,11 @@
 .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 @media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr}.newsletter{grid-column:1/-1;max-width:560px}}
 @media(max-width:600px){.newsletter{grid-column:auto;width:100%;padding:22px!important}.newsletter-control{grid-template-columns:1fr;gap:12px}.newsletter-control button{grid-column:1/-1;width:100%;margin-left:0}}
+
+main section[id]{scroll-margin-top:116px}
+.section-intro{max-width:720px;color:var(--muted);font-size:17px;line-height:1.7}
+.packages-section{background:#fff}
+.contact-heading{margin-bottom:45px}
+.contact-heading h2{font-size:clamp(38px,4.5vw,58px);line-height:1.08;letter-spacing:-2.5px;margin:18px 0}
+.contact-heading p{max-width:660px;color:var(--muted);font-size:18px}
+header nav a{transition:color .2s}
