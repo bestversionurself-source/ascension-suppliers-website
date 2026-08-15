@@ -32,5 +32,3 @@ main section[id]{scroll-margin-top:116px}
 .contact-heading h2{font-size:clamp(38px,4.5vw,58px);line-height:1.08;letter-spacing:-2.5px;margin:18px 0}
 .contact-heading p{max-width:660px;color:var(--muted);font-size:18px}
 header nav a{transition:color .2s}.social-icon svg rect,.social-icon svg circle{fill:none;stroke:currentColor;stroke-width:2}
-
-.social-icons{display:flex;align-items:center;gap:12px;margin-top:8px;white-space:nowrap}.social-icons a{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;color:#fff;font-size:16px;line-height:1;transition:opacity .2s,transform .2s}.social-icons a:hover{color:#fff;opacity:.75;transform:translateY(-1px)}
