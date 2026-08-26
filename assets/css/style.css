@@ -34,5 +34,5 @@ main section[id]{scroll-margin-top:116px}
 header nav a{transition:color .2s}
 
 
-.header-brand{height:56px;flex:0 0 auto}.header-brand .brand-logo{display:block;width:auto;height:52px;max-width:180px;object-fit:contain}
-@media(max-width:600px){.header-brand{height:48px}.header-brand .brand-logo{height:44px;max-width:150px}.nav{height:72px}header nav{top:72px}}
+.header-brand{height:46px;flex:0 0 auto}.header-brand .brand-logo{display:block;width:auto;height:42px;max-width:145px;object-fit:contain}
+@media(max-width:600px){.header-brand{height:40px}.header-brand .brand-logo{height:36px;max-width:125px}.nav{height:72px}header nav{top:72px}}
