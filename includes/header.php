@@ -1,7 +1,7 @@
 <?php $title = $title ?? 'Reliance Digital Agency'; $page = $page ?? ''; ?>
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title><?= e($title) ?></title><link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon.png"><link rel="apple-touch-icon" href="/assets/images/favicon.png"><meta name="description" content="Web design, PHP development, e-commerce and digital growth services from Reliance Digital Agency.">
+<title><?= e($title) ?></title><link rel="icon" type="image/png" sizes="192x192" href="/assets/images/brand-icon-transparent.png"><link rel="apple-touch-icon" href="/assets/images/favicon.png"><meta name="description" content="Web design, PHP development, e-commerce and digital growth services from Reliance Digital Agency.">
 <link rel="stylesheet" href="/assets/css/style.css"><?php if ($page === 'privacy'): ?><link rel="stylesheet" href="/assets/css/privacy.css"><?php endif; ?><script defer src="/assets/js/site.js"></script>
 <!-- Meta Pixel Code -->
 <script>
