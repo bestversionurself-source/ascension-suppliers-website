@@ -33,3 +33,6 @@ main section[id]{scroll-margin-top:116px}
 .contact-heading p{max-width:660px;color:var(--muted);font-size:18px}
 header nav a{transition:color .2s}
 
+
+.header-brand{height:70px;flex:0 0 auto}.header-brand .brand-logo{display:block;width:auto;height:66px;max-width:220px;object-fit:contain}
+@media(max-width:600px){.header-brand{height:58px}.header-brand .brand-logo{height:54px;max-width:170px}.nav{height:72px}header nav{top:72px}}
